@@ -1,0 +1,25 @@
+{
+  "name": "idl",
+  "displayName": "IDL",
+  "description": "Language support for the Isa Description Language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "idl",
+      "aliases": ["IDL", "idl"],
+      "extensions": [".idl",".isa"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "idl",
+      "scopeName": "source.idl",
+      "path": "./syntaxes/idl.tmLanguage.json"
+    }]
+  }
+}
