@@ -13,3 +13,6 @@ This extension provides syntax highlighting for the ISA Description Language, us
 
 Initial release.
 
+### 0.2.0
+
+Moved to directory in repo.
