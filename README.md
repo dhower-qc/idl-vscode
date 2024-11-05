@@ -1,4 +1,4 @@
-# IDL for VD Code
+# IDL for VS Code
 
 This extension provides syntax highlighting for the ISA Description Language, used by
 [`riscv-unified-db`](https://github.com/riscv-software-src/riscv-unified-db).
